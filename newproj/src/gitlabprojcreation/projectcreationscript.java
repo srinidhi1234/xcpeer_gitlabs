@@ -24,6 +24,10 @@ public class projectcreationscript {
 		driver.findElement(By.xpath("(//button[@type='button'])[1]")).click();
 		driver.findElement(By.xpath("//a[@class='qa-your-projects-link']")).click();
 		driver.findElement(By.xpath("//a[.='New project']")).click();
+		driver.findElement(By.xpath("(//h3[@class='blank-state-title experiment-new-project-page-blank-state-title'])[1]")).click();
+		driver.findElement(By.xpath("//input[@id='project_name']")).sendKeys("my project");
+		driver.findElement(By.xpath("//textarea[@id='project_description']")).sendKeys("My project is with respect to test github");
+		driver.findElement(By.xpath("//input[@value='Create project']")).click();
 		
 	}
 
