@@ -19,7 +19,7 @@ public class gitlab_TC3_testng
 			driver.get("https://gitlab.com/users/sign_in");
 			github_TC3_pom ln = new github_TC3_pom(driver);
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			ln.setusn("sritester");
+			ln.setusn("srinidhi.katti23@gmail.com");
 			ln.setpass("$^!nidhi@123");
 			ln.passbtn();
 			driver.quit();
